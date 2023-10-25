@@ -386,7 +386,7 @@
     <div class="row">
         <div class="col">
             <div class="card-group">
-                <div class="card" style="width:250px;">
+                <div class="card border-0" style="width:250px;">
                     <div class="card-header text-bg-primary">
                         <h2>GT BANK</h2>
                     </div>
@@ -406,7 +406,7 @@
 
         <div class="col">
             <div class="card-group">
-                <div class="card" style="width:250px;">
+                <div class="card border-0" style="width:250px;">
                     <div class="card-header">
                         <h2>First Profile</h2>
                     </div>
@@ -426,7 +426,7 @@
 
         <div class="col">
             <div class="card-group">
-                <div class="card" style="width:250px;">
+                <div class="card border-0" style="width:250px;">
                     <div class="card-header">
                         <h2>First Profile</h2>
                     </div>
@@ -446,7 +446,7 @@
 
         <div class="col">
             <div class="card-group">
-                <div class="card" style="width:250px;">
+                <div class="card border-0" style="width:250px;">
                     <div class="card-header text-bg-info">
                         <h2>Boss Banking</h2>
                     </div>
@@ -470,7 +470,7 @@
 
 <!-- dropdown -->
 
-<div class="dropdown mb-3">
+<div class="dropdown mb-3 ms-5">
     <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
       Dropdown button
     </button>
@@ -486,6 +486,7 @@
   <hr>
 
   <!-- collapse -->
+
   <div class="container">
     <div class="row">
         <div class="col-sm-4">
@@ -510,7 +511,7 @@
 
             <div id="accordion">
 
-                <div class="card">
+                <div class="card border-0">
                     <div class="card-header">
                         <a class="btn" data-bs-toggle="collapse" href="#collapseOne">Collaspe Group 1</a>
                     </div>
@@ -617,6 +618,7 @@
 <hr>
 
 <!-- modal -->
+
 <div class="d-grid">
     <button class="btn btn-success mb-3" type="button" data-bs-target="#myModal" data-bs-toggle="modal" data-bs-toggle="tooltip" title="This is a modal"><strong>Read Instrusctions Here</strong>
     </button>
@@ -629,6 +631,7 @@
                 <h4 class="modal-title">Read the instructions carefully before applying</h4>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
+
             <div class="modal-body">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quae similique, minus minima illo voluptas quam rerum itaque nesciunt deleniti consequatur facere voluptatibus commodi excepturi laborum quasi iste consectetur deserunt, ratione impedit unde ea! Doloribus placeat dolores quas officia impedit!
 
@@ -637,8 +640,8 @@
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nesciunt molestiae quisquam ipsam eum dignissimos ad repellat suscipit! Laborum odio amet voluptatibus. Quis corporis at dolores quaerat necessitatibus rem officia!</p>
               
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nesciunt molestiae quisquam ipsam eum dignissimos ad repellat suscipit! Laborum odio amet voluptatibus. Quis corporis at dolores quaerat necessitatibus rem officia!</p>
-
             </div>
+
             <div class="modal-footer justify-content-center text-bg-dark">
                 <small>All the best</small>
             </div>
@@ -646,6 +649,49 @@
     </div>
 </div>
 
+<hr>
+
+<!-- popover -->
+
+<div class="d-grid mb-3">
+    <button class="btn btn-primary" data-bs-toggle="popover" title="This is Popover lerson" data-bs-content="This has been the popover lerson, great work done." data-bs-placement="top">PopOver</button>
+</div>
+
+<hr>
+
+<!-- toast -->
+
+<div class="toast show mb-3 ms-5 border-0">
+    <div class="toast-header">
+    <strong>This is Toast</Strong>
+        <button class="btn-close" data-bs-dismiss="toast"></button>
+    </div>
+        <div class="toast-body">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti repellendus neque exercitationem consectetur! Corrupti, alias! Vitae obcaecati a tenetur. Accusamus.</p>
+        </div>
+</div>
+
+<hr>
+
+<!-- offcanvas -->
+
+<div class="offcanvas offcanvas-start" id="demo">
+    <div class="offcanvas-header">
+        <h3 class="offcanvas-title">This is offcanvas</h3>
+        <button class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+    </div>
+
+    <div class="offcanvas-body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, laudantium!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, laudantium!</p>
+
+        <button class="btn btn-dark" type="button">Offcanvas</button>
+    </div>
+</div>
+
+<div class="d-grid mb-3">
+    <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">Click to open sidebar</button>
+</div>
 
 
 </body>
